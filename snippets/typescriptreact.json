@@ -59,7 +59,7 @@
       "const ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}: NextPage = () => {",
       "  return (",
       "    <div>",
-      "      <p>$0 page</p>",
+      "      <p>${1:${TM_FILENAME_BASE/(.*)/${1:/downcase}/}} page</p>",
       "    </div>",
       "  );",
       "}",
