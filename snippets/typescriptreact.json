@@ -88,5 +88,5 @@
       "export default ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}"
     ],
     "description": "Typescript: Next.js component"
-  },
+  }
 }
