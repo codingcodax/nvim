@@ -21,6 +21,13 @@
     ],
     "description": "My standard setup React component"
   },
+  "Import Image from next/image": {
+    "prefix": "impi",
+    "body": [
+      "import Image from 'next/image';"
+    ],
+    "description": "Import Image component from next/image."
+  },
   "next/image": {
     "prefix": "<Image",
     "body": [
