@@ -20,5 +20,12 @@
       "export default ${TM_FILENAME_BASE};"
     ],
     "description": "My standard setup React component"
+  },
+  "next/image": {
+    "prefix": "<Image",
+    "body": [
+      "<Image alt='${1:Alt Text}' src={${2:src}} placeholder='${3:blur}' />;"
+    ],
+    "description": "Image component allowing you to easily display images without layout shift and optimize files on-demand for increased performance."
   }
 }
