@@ -67,5 +67,26 @@
       "export default ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}"
     ],
     "description": "Typescript: Next.js page"
-  }
+  },
+  "Next.js component": {
+    "prefix": "nct",
+    "body": [
+      "import type { NextComponentType, NextPageContext } from 'next';",
+      "",
+      "interface Props {}",
+      "",
+      "const ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}: NextComponentType<NextPageContext, {}, Props> = (",
+      "  props: Props,",
+      ") => {",
+      "  return (",
+      "    <div>",
+      "      <p>$0 component</p>",
+      "    </div>",
+      "  )",
+      "}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}"
+    ],
+    "description": "Typescript: Next.js component"
+  },
 }
