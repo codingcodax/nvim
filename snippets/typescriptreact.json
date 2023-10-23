@@ -50,5 +50,22 @@
       "</Link>"
     ],
     "description": "Image component allowing you to easily display images without layout shift and optimize files on-demand for increased performance."
+  },
+  "Next.js page": {
+    "prefix": "npt",
+    "body": [
+      "import type { NextPage } from 'next';",
+      "",
+      "const ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}: NextPage = () => {",
+      "  return (",
+      "    <div>",
+      "      <p>$0 page</p>",
+      "    </div>",
+      "  );",
+      "}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}"
+    ],
+    "description": "Typescript: Next.js page"
   }
 }
