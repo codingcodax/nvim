@@ -34,5 +34,12 @@
       "<Image alt='${1:Alt Text}' src={${2:src}} placeholder='${3:blur}' />;"
     ],
     "description": "Image component allowing you to easily display images without layout shift and optimize files on-demand for increased performance."
+  },
+  "Import Link from next/link": {
+    "prefix": "impl",
+    "body": [
+      "import Link from 'next/link';"
+    ],
+    "description": "Import Link from next/link."
   }
 }
