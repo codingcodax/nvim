@@ -41,5 +41,14 @@
       "import Link from 'next/link';"
     ],
     "description": "Import Link from next/link."
+  },
+  "next/link": {
+    "prefix": "<Link",
+    "body": [
+      "<Link href='/${1:go to}'>",
+      "\t$1",
+      "</Link>"
+    ],
+    "description": "Image component allowing you to easily display images without layout shift and optimize files on-demand for increased performance."
   }
 }
