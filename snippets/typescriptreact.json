@@ -1,8 +1,6 @@
 {
   "Setup React component": {
-    "prefix": [
-      "_rafce"
-    ],
+    "prefix": "_rafce",
     "body": [
       "const ${TM_FILENAME_BASE} = () => {",
       "  return (",
