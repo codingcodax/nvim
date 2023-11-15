@@ -1,6 +1,7 @@
 return {
 	"AstroNvim/astrocommunity",
 
+	{ import = "astrocommunity.color.modes-nvim" },
 	{ import = "astrocommunity.color.twilight-nvim" },
   { import = "astrocommunity.colorscheme.catppuccin" },
 	{ import = "astrocommunity.completion.codeium-vim" },
