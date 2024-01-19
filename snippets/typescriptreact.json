@@ -6,7 +6,7 @@
     ],
     "description": "Log to console"
   },
-  "Setup React component": {
+  "Setup React component default export": {
     "prefix": "_rafce",
     "body": [
       "const ${TM_FILENAME_BASE} = () => {",
@@ -19,7 +19,20 @@
       "",
       "export default ${TM_FILENAME_BASE};"
     ],
-    "description": "My standard setup React component"
+    "description": "My standard setup React component default export"
+  },
+  "Setup React component named export": {
+    "prefix": "_rafc",
+    "body": [
+      "export const ${TM_FILENAME_BASE} = () => {",
+      "  return (",
+      "    <div>",
+      "      <p>$0</p>",
+      "    </div>",
+      "  );",
+      "};"
+    ],
+    "description": "My standard setup React component named export"
   },
   "Import Image from next/image": {
     "prefix": "impi",
