@@ -2,6 +2,19 @@ return {
   "AstroNvim/astrocommunity",
 
   { import = "astrocommunity.color.modes-nvim" },
+  {
+    "mvllow/modes.nvim",
+    opts = {
+      colors = {
+        copy = "#eed49f",
+        delete = "#ed8796",
+        insert = "#a6da95",
+        visual = "#c6a0f6",
+      },
+      line_opacity = 0.3,
+    },
+  },
+  { import = "astrocommunity.color.tint-nvim" },
   { import = "astrocommunity.color.twilight-nvim" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.completion.codeium-vim" },
