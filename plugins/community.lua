@@ -16,6 +16,7 @@ return {
   },
   { import = "astrocommunity.color.tint-nvim" },
   { import = "astrocommunity.color.twilight-nvim" },
+  { import = "astrocommunity.color.vim-highlighter" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.completion.codeium-vim" },
   { import = "astrocommunity.diagnostics.lsp_lines-nvim" },
