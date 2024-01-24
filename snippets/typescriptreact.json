@@ -1,6 +1,6 @@
 {
   "Print message to the console": {
-    "prefix": "log",
+    "prefix": "!log",
     "body": [
       "console.log($1);"
     ],
