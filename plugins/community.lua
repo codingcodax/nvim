@@ -21,6 +21,7 @@ return {
   { import = "astrocommunity.completion.codeium-vim" },
   { import = "astrocommunity.diagnostics.lsp_lines-nvim" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
+  { import = "astrocommunity.editing-support.nvim-devdocs" },
   { import = "astrocommunity.editing-support.zen-mode-nvim" },
   { import = "astrocommunity.git.openingh-nvim" },
   { import = "astrocommunity.media.vim-wakatime" },
