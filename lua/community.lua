@@ -44,5 +44,6 @@ return {
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
 }
