@@ -1,0 +1,105 @@
+{
+  "Print message to the console": {
+    "prefix": "!log",
+    "body": [
+      "console.log($1);"
+    ],
+    "description": "Log to console"
+  },
+  "Setup React component default export": {
+    "prefix": "_rafce",
+    "body": [
+      "const ${TM_FILENAME_BASE} = () => {",
+      "  return (",
+      "    <div>",
+      "      <p>$0</p>",
+      "    </div>",
+      "  );",
+      "};",
+      "",
+      "export default ${TM_FILENAME_BASE};"
+    ],
+    "description": "My standard setup React component default export"
+  },
+  "Setup React component named export": {
+    "prefix": "_rafc",
+    "body": [
+      "export const ${TM_FILENAME_BASE} = () => {",
+      "  return (",
+      "    <div>",
+      "      <p>$0</p>",
+      "    </div>",
+      "  );",
+      "};"
+    ],
+    "description": "My standard setup React component named export"
+  },
+  "Import Image from next/image": {
+    "prefix": "impi",
+    "body": [
+      "import Image from 'next/image';"
+    ],
+    "description": "Import Image component from next/image."
+  },
+  "next/image": {
+    "prefix": "<Image",
+    "body": [
+      "<Image alt='${1:Alt Text}' src={${2:src}} placeholder='${3:blur}' />;"
+    ],
+    "description": "Image component allowing you to easily display images without layout shift and optimize files on-demand for increased performance."
+  },
+  "Import Link from next/link": {
+    "prefix": "impl",
+    "body": [
+      "import Link from 'next/link';"
+    ],
+    "description": "Import Link from next/link."
+  },
+  "next/link": {
+    "prefix": "<Link",
+    "body": [
+      "<Link href='/${1:go to}'>",
+      "\t$1",
+      "</Link>"
+    ],
+    "description": "Image component allowing you to easily display images without layout shift and optimize files on-demand for increased performance."
+  },
+  "Next.js page": {
+    "prefix": "npt",
+    "body": [
+      "import type { NextPage } from 'next';",
+      "",
+      "const ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}: NextPage = () => {",
+      "  return (",
+      "    <div>",
+      "      <p>${1:${TM_FILENAME_BASE/(.*)/${1:/downcase}/}} page</p>",
+      "    </div>",
+      "  );",
+      "};",
+      "",
+      "export default ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/};"
+    ],
+    "description": "Typescript: Next.js page"
+  },
+  "Next.js component": {
+    "prefix": "nct",
+    "body": [
+      "import type { NextComponentType, NextPageContext } from 'next';",
+      "",
+      "interface Props {}",
+      "",
+      "const ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}: NextComponentType<NextPageContext, {}, Props> = (",
+      "  props: Props,",
+      ") => {",
+      "  return (",
+      "    <div>",
+      "      <p>$0 component</p>",
+      "    </div>",
+      "  );",
+      "};",
+      "",
+      "export default ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}};"
+    ],
+    "description": "Typescript: Next.js component"
+  }
+}
