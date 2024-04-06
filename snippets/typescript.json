@@ -1,0 +1,9 @@
+{
+  "Print message to the console": {
+    "prefix": "!log",
+    "body": [
+      "console.log($1);"
+    ],
+    "description": "Log to console"
+  }
+}
