@@ -33,6 +33,7 @@ return {
   { import = "astrocommunity.editing-support.zen-mode-nvim" },
   { import = "astrocommunity.git.openingh-nvim" },
   { import = "astrocommunity.lsp.lsp-signature-nvim" },
+  { import = "astrocommunity.lsp.ts-error-translator-nvim" },
   { import = "astrocommunity.media.vim-wakatime" },
   { import = "astrocommunity.pack.astro" },
   { import = "astrocommunity.pack.bash" },
