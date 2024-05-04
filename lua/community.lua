@@ -32,6 +32,7 @@ return {
   { import = "astrocommunity.editing-support.vim-move" },
   { import = "astrocommunity.editing-support.zen-mode-nvim" },
   { import = "astrocommunity.git.openingh-nvim" },
+  { import = "astrocommunity.lsp.lsp-signature-nvim" },
   { import = "astrocommunity.media.vim-wakatime" },
   { import = "astrocommunity.pack.astro" },
   { import = "astrocommunity.pack.bash" },
