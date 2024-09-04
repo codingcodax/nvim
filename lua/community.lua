@@ -41,10 +41,10 @@ return {
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.pack.mdx" },
   { import = "astrocommunity.pack.prisma" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
-  { import = "astrocommunity.snippet.nvim-snippets" },
 }
